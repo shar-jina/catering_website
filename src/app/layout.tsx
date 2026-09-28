@@ -16,16 +16,16 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://georgefoods.in"),
+  metadataBase: new URL("https://www.georgefoods.in"),
   title: "George Foods & Caters | Premium Catering Services & Takeaway Hubs",
   description: "Experience premium catering services and gourmet takeaway hubs with George Foods & Caters. Tailored menus, custom platters, and impeccable food for weddings, gatherings, and daily pickup.",
   alternates: {
-    canonical: "https://georgefoods.in",
+    canonical: "https://www.georgefoods.in",
   },
   openGraph: {
     title: "George Foods & Caters | Premium Catering Services & Takeaway Hubs",
     description: "Experience premium catering services and gourmet takeaway hubs with George Foods & Caters. Tailored menus, custom platters, and impeccable food for weddings, gatherings, and daily pickup.",
-    url: "https://georgefoods.in",
+    url: "https://www.georgefoods.in",
     siteName: "George Foods & Caters",
     images: [
       {
