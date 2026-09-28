@@ -8,9 +8,9 @@ Options -Indexes
   RewriteEngine On
   RewriteBase /
 
-  # Redirect www to non-www (georgefoods.in)
-  RewriteCond %{HTTP_HOST} ^www\.georgefoods\.in [NC]
-  RewriteRule ^(.*)$ https://georgefoods.in/$1 [R=301,L]
+  # Redirect non-www to www (www.georgefoods.in)
+  RewriteCond %{HTTP_HOST} ^georgefoods\.in$ [NC]
+  RewriteRule ^(.*)$ https://www.georgefoods.in/$1 [R=301,L]
 
   # Serve real files or directories directly
   RewriteCond %{REQUEST_FILENAME} -f [OR]
